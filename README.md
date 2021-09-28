@@ -5,7 +5,6 @@ Using longitudinal survey data, we examined whether White men perceived the risk
 ### Versions 
 - Python 3.8.11
 - R 3.6.1
-- conda 4.10.3
 
 ## Description of data
 - The [Understanding America Study (UAS)](https://uasdata.usc.edu/index.php) launched a special COVID-19 survey between March 10, 2020 and June 22, 2021. There were a total of 28 waves with a two-week interval between waves. Wave 1 was a pilot and used different sampling methods and contained different variables, so for the purpose of this study, we excluded this wave. This means we analyzed data between April 1, 2020 and June 22, 2021. 
