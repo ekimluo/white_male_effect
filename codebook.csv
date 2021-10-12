@@ -1,0 +1,60 @@
+variable name,variable label,description,survey question,answer key
+age,MyHH: Age,The age of the respondent at the start of the survey.,,
+cr022a,hospitalized how many family or close friends,hospitalized how many family or close friends,"You said that you have [NUMBER] family and close friends. Of these people, how many do you think have been
+hospitalized (spent at least one night in the hospital) from the coronavirus?","[Input number: 0-999, must be <= to total contacts and <=cr022]:
+[Soft check: “Do you really know [NUMBER] people who have been hospitalized?”]"
+cr022b,died how many family or close friends,died how many family or close friends,"You said that you have [NUMBER] family and close friends. Of these people, how many do you think have died
+from the coronavirus?","[Input number: 0-999, must be <= to total contacts and <= cr022]:
+[Soft check: “Do you really know [NUMBER] people who have died?”]"
+education,MyHH: Highest level of education,The highest level of education attained by the respondent.,"What is the highest level of school that you have completed or the highest degree you
+have received?","1 Less than 1st grade
+2 1st, 2nd, 3rd or 4th grade
+3 5th or 6th grade
+4 7th or 8th grade
+5 9th grade
+6 10th grade
+7 11th grade
+8 12th grade - no diploma
+9 High school graduate - high school diploma or the equivalent (for example GED)
+10 Some college but no degree
+11 Associate degree in college - Occupational/vocational program
+12 Associate degree in college - - Academic program
+13 Bachelor’s degree (For example: BA, AB, BS)
+14 Master’s degree (For example: MA, MS, MEng, MEd, MSW, MBA)
+15 Professional School Degree (For example: MD,DDS,DVM,LLB,JD)
+16 Doctorate degree (For example: PhD, EdD)"
+gender,MyHH: gender,,What is your gender?,"1 Male
+2 Female"
+group,group,,,
+group2,White men v. others,,,
+hhincome,MyHH: Household income,The total combined income of all members of the respondent’s household (living in their household) during the past 12 months.,"Which category represents the total combined income of all members of your family (living
+in your house) during the past 12 months? This includes money from jobs, net income
+from business, farm or rent, pensions, dividends, interest, Social Security payments and
+any other monetary income received by members of your family who are 15 years of age
+or older.","1 Less than $5,000
+2 5,000 to 7,499
+3 7,500 to 9,999
+4 10,000 to 12,499
+5 12,500 to 14,999
+6 15,000 to 19,999
+7 20,000 to 24,999
+8 25,000 to 29,999
+9 30,000 to 34,999
+10 35,000 to 39,999
+11 40,000 to 49,999
+12 50,000 to 59,999
+13 60,000 to 74,999
+14 75,000 to 99,999
+15 100,000 to 149,999
+16 150,000 or more"
+jobs_dayswfh,How many days in the past seven worked from home,,"Out of the past seven days, how many days did you work from home?",
+prisk_die,Perceived risk of death due to COVID in next 3 months,Perceived risk of death due to COVID in next 3 months,"If you do get the coronavirus, what is the percent chance you will die from it? If you’re not sure, please give your
+best guess. ",[0%-100% Visual Linear Scale]
+race,MyHH: Race,"Indicates the race of the respondent as singular (e.g., ‘1 White’ or ‘2 Black’) or as mixed (in case the respondent identifies with two or more races). The value ‘6 Mixed’ that the respondent answered ‘Yes’ to at least two of the single race categories. This variable is generated based on the values of the different race variables (white, black, nativeamer, asian, pacific). This composite measure is not conditional on hisplatino, so an individual may identify as Hispanic or Latino, and also as a member of one or more racial groups.",Here is a list of five race categories. Please choose all that apply.,"1 White
+2 Black or African American
+3 American Indian or Alaska Native
+4 Asian
+5 Native Hawaiian or Other Pacific Islander"
+uasid,Individual identifier,"The identifier of the respondent. This identifier is assigned to a respondent at recruitment and stays with the respondent throughout each and every survey he/she participates in. When analyzing data from multiple surveys, the ‘uasid’ can be used to merge data sets.",NA,NA 
+wave,Wave of COVID-19 longitudinal study,Wave of COVID-19 longitudinal study,NA,NA 
+hhmembernumber,,,,
