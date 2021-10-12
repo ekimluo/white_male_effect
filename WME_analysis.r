@@ -11,6 +11,7 @@ library(lmerTest)
 library(ggplot2) # required for loading waffle
 library(waffle)
 
+
 # import cleaned data
 # data were cleaned and scored in Python
 uas_full <- read.csv('uas_cleaned_full.csv') # this DataFrame contains all participants regardless of how many waves they participated in
@@ -148,25 +149,3 @@ summary(lmm_group2_more)
 # this is the leftover variance after variance explained by fixed effects
 # 1.221
 100*4.411/(286.070+4.411+70.737)
-
-# import cdc data summry
-# dataset was cleaned and scored in python
-cdc_summary <- read.csv('cdc_summary.csv')
-cdc_summary
-
-# construct summary table for proportions & chi-squared tests
-prisk <- c(9.55,11.67,13.05,15.32)
-rrisk <- c(23.65,26.3,27.94,22.1)
-
-sum_table <- cbind(prisk, rrisk)
-rownames(sum_table) <- c('wm','ww','nm','nw')
-
-sum_table
-
-# test of equal or given proportions
-# this also runs a chi-squared test
-# null hypothesis: the proportions in these two groups are the same
-# p value reflects how likely it is that both proportions are equal
-# prop# are the probabilities of success for groups
-# two sided test, meaning a non-significant p value indicates no difference between real v. perceived risks
-prop.test(sum_table)
