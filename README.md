@@ -1,5 +1,5 @@
 # White Male Effect in Perceived COVID-19 Mortality Risks
-### Last updated 09/13/2021 by Ekim Luo
+### Last updated 10/13/2021 by Ekim Luo
 Using longitudinal survey data, we examined whether White men perceived the risk of dying from COVID-19 to be lower than other demographic groups, including White women, non-White men and women. 
 
 ### Versions 
